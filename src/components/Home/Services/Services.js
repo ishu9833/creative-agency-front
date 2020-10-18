@@ -22,7 +22,7 @@ const Services = () => {
     }
 
     useEffect( () => {
-        fetch('http://localhost:5000/service')
+        fetch('https://mighty-plateau-69732.herokuapp.com/service')
         .then( res => res.json())
         .then(data => setServiceData(data))
     })

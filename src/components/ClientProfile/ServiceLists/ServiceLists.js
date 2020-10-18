@@ -39,7 +39,7 @@ const ServiceLists = () => {
     useEffect( () => {
 
     if(email){
-        fetch('http://localhost:5000/serviceListData/'+email)
+        fetch('https://mighty-plateau-69732.herokuapp.com/serviceListData/'+email)
         .then( res => res.json())
         .then( userData => setServiceListsData(userData))
     }

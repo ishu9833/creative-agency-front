@@ -15,7 +15,7 @@ const ServiceDetails = ({ service, handleAddServiceTitle}) => {
                 service.image ?
                 <img className="logo" style={{ height: '50px' }} src={`data:image/png;base64,${service.image.img}`}  alt="" />
                 :
-                <img className="logo" style={{ height: '50px' }} src={`http://localhost:5000/${service.img}`}  alt="" />
+                <img className="logo" style={{ height: '50px' }} src={`https://mighty-plateau-69732.herokuapp.com/${service.img}`}  alt="" />
 
             }
             <h5 className="mt-3 mb-3">{service.title}</h5>

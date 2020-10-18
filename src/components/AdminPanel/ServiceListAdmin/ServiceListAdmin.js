@@ -45,7 +45,7 @@ const ServiceListAdmin = () => {
     const { loggedInUser, setLoggedInUser } = useContext(UserContext);
     const [serviceTableData, setServiceTableData] = useState([]);
     useEffect( () => {
-        fetch('http://localhost:5000/serviceListData')
+        fetch('https://mighty-plateau-69732.herokuapp.com/serviceListData')
         .then(res => res.json())
         .then(data => setServiceTableData(data))
     }, [])

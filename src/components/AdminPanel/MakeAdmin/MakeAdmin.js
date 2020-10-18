@@ -12,7 +12,7 @@ const MakeAdmin = () => {
     const [admin ,setAdmin] = useState(null);
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/makeAdmin',{
+        fetch('https://mighty-plateau-69732.herokuapp.com/makeAdmin',{
             method: 'POST',
             headers: {'content-type':'application/json'},
             body: JSON.stringify(data)

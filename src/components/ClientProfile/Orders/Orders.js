@@ -47,7 +47,7 @@ const Orders = () => {
         formData.append('price', order.price);
         formData.append('description', order.description);
 
-        fetch('http://localhost:5000/userProject', {
+        fetch('https://mighty-plateau-69732.herokuapp.com/userProject', {
             method: 'POST',
             body: formData
         })
