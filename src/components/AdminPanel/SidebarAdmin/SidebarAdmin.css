@@ -1,0 +1,16 @@
+
+.sidebar li{
+    margin-bottom: 2em;
+    /* text-decoration: none; */
+}
+.sidebar li:hover {
+    display: inline-block;
+    transform: translate(5px);
+    color: #009444;
+}
+.sidebar svg{
+    margin-right: 5px;
+}
+.text-black{
+    text-decoration: none;
+}

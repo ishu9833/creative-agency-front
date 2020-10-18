@@ -1,0 +1,10 @@
+.custom-upload{
+    border: 1px solid #009444;
+    border-radius: 8px;
+    color: #009444;
+    background-color:#deffed;
+    padding: 5px;
+}
+.twice-input input[type="file"]{
+    display: none;
+}
